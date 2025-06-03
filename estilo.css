@@ -1,0 +1,97 @@
+body {
+      background-color:aliceblue;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px;
+}
+h1 {
+    color: midnightblue; 
+    text-align: center;
+}
+p {
+    text-align: justify; 
+    text-indent: 30px; 
+    font-size: larger
+}
+
+li {
+    margin: 30px;
+    font-size: larger
+    
+}  
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray;
+    margin: 20px auto;
+    cursor: pointer; 
+    
+}
+
+img{
+    border-radius: 6px;
+    height: 150px;
+    margin: 5px;
+}
+
+tr:hover {
+    background-color: #e9f5ff;
+}
+
+td:hover {
+    background-color: #e9f5ff;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 6px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+tr:hover, td:hover, a:hover {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    background-color: gray;
+    color: white;          
+    padding: 10px 20px; 
+    border: none;        
+    border-radius: 8px;      
+    cursor: pointer;        
+    font-size: 16px;         
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 50px auto;
+}
+
+.link:hover {
+    font-weight: bolder; 
+    color: rgb(196, 5, 5);
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
